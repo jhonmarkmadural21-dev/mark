@@ -1,0 +1,13 @@
+RIDERPRO DEPLOYMENT QUICK START
+
+1. Push this clean folder/repository to GitHub.
+2. Render: create Web Service; Root Directory = backend; Build = npm install; Start = npm start.
+3. Copy the Render service URL.
+4. Netlify: deploy repository root; Build = npm run build; Publish = dist.
+5. In Netlify environment variables, set VITE_API_URL to the Render URL (no trailing slash and no /api).
+6. In Render environment variables, set FRONTEND_URL to your Netlify site URL.
+7. Redeploy both services after setting variables.
+8. Test https://YOUR-RENDER-SERVICE.onrender.com/api/health and your Netlify site.
+
+Local frontend: npm install && npm run dev
+Local backend: open another terminal, cd backend, npm install, npm run dev

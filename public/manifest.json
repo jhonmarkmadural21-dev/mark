@@ -1,0 +1,14 @@
+{
+  "name": "RiderPro Motor Parts Marketplace",
+  "short_name": "RiderPro",
+  "description": "Responsive motorcycle parts marketplace with offline support",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#e53935",
+  "background_color": "#f6f6f6",
+  "icons": [
+    {"src":"/images/handlebar.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}
+  ]
+}

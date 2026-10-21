@@ -1,0 +1,11 @@
+RIDERPRO EXPRESS BACKEND
+
+Run npm install once.
+Terminal 1: npm run backend
+Terminal 2: npm run dev
+Or: npm run dev:full
+
+Backend: http://localhost:5000
+Health: http://localhost:5000/api/health
+Orders: POST /api/orders
+The checkout uses /api/orders through the Vite proxy, so it also works if Vite moves from 5173 to 5174/5175/etc.

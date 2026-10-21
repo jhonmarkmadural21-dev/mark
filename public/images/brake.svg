@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#fafafa"/><stop offset="1" stop-color="#eeeeee"/></linearGradient></defs>
+<rect width="800" height="600" rx="28" fill="url(#g)"/>
+<circle cx="400" cy="260" r="145" fill="#e53935" opacity=".12"/>
+<circle cx="400" cy="260" r="105" fill="#e53935" opacity=".2"/>
+<text x="400" y="305" text-anchor="middle" font-size="130">🛞</text>
+<text x="400" y="455" text-anchor="middle" font-family="Arial,sans-serif" font-size="34" font-weight="700" fill="#222">Brake Disc</text>
+<text x="400" y="500" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#777">RiderPro Genuine Parts</text>
+</svg>
